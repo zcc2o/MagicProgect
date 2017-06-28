@@ -30,7 +30,7 @@ static NSString *_text;
 
 - (void)updateTitle{
     
-    NSString *countString = [NSString stringWithFormat:@"%lis后可重新发送  ", (long)_count - 1];
+    NSString *countString = [NSString stringWithFormat:@"发送验证码(%lis)", (long)_count - 1];
     
     self.userInteractionEnabled = NO;
     self.text = countString;
