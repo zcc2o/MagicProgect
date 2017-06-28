@@ -1,0 +1,6 @@
+target ‘MagicWallet’
+pod ‘AFNetworking’
+pod ‘FMDB’
+pod ‘ProgressHUD’
+pod ‘SDWebImage’
+pod ‘MJExtension’

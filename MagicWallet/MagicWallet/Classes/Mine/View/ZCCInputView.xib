@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZCCInputView">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="修改密码：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAe-Y9-XV7">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="WwY-Jf-ByV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="14" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="pFT-5N-jqf">
+                    <rect key="frame" x="70" y="0.0" width="290" height="35"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="pFT-5N-jqf" secondAttribute="trailing" id="BYn-bc-wBS"/>
+                <constraint firstItem="pFT-5N-jqf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QfI-4M-4Eu"/>
+                <constraint firstItem="pFT-5N-jqf" firstAttribute="leading" secondItem="xAe-Y9-XV7" secondAttribute="trailing" id="b6V-1b-cs8"/>
+                <constraint firstItem="xAe-Y9-XV7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="crA-8e-rGA"/>
+                <constraint firstItem="xAe-Y9-XV7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="e20-3n-gTy"/>
+                <constraint firstAttribute="bottom" secondItem="xAe-Y9-XV7" secondAttribute="bottom" id="qle-PY-Hvj"/>
+                <constraint firstAttribute="bottom" secondItem="pFT-5N-jqf" secondAttribute="bottom" id="sIs-9M-y9h"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="inputLabeltextField" destination="pFT-5N-jqf" id="C0E-kO-ZUg"/>
+                <outlet property="itemNameLabel" destination="xAe-Y9-XV7" id="Qj7-6u-XIe"/>
+            </connections>
+            <point key="canvasLocation" x="-11" y="-466.5"/>
+        </view>
+    </objects>
+</document>

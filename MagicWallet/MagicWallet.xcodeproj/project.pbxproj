@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040C59C51F023B2A002963BB /* UILabel+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C59C41F023B2A002963BB /* UILabel+EXTENSION.m */; };
+		041EF58C1F01E7D3004AECB3 /* ZCCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF58B1F01E7D3004AECB3 /* ZCCLoginViewController.m */; };
+		041EF58F1F01F42C004AECB3 /* ZCCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF58E1F01F42C004AECB3 /* ZCCRegisterViewController.m */; };
+		0443A7181EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443A7171EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.m */; };
+		0443A71F1EFD05A000E3CA97 /* ZCCSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443A71E1EFD05A000E3CA97 /* ZCCSettingTableViewController.m */; };
+		0443A7261EFD199200E3CA97 /* ZCCHelpCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443A7251EFD199200E3CA97 /* ZCCHelpCenterTableViewController.m */; };
+		044734571EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044734561EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.m */; };
+		0447345A1EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044734591EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.m */; };
+		0447345D1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447345C1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.m */; };
+		047837891EF8C57D00C23A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837881EF8C57D00C23A96 /* main.m */; };
+		047837941EF8C57D00C23A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047837931EF8C57D00C23A96 /* Assets.xcassets */; };
+		047837971EF8C57D00C23A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047837951EF8C57D00C23A96 /* LaunchScreen.storyboard */; };
+		047837A21EF8C57E00C23A96 /* MagicWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837A11EF8C57E00C23A96 /* MagicWalletTests.m */; };
+		047837AD1EF8C57E00C23A96 /* MagicWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837AC1EF8C57E00C23A96 /* MagicWalletUITests.m */; };
+		047837CF1EF8C69A00C23A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837C21EF8C69A00C23A96 /* AppDelegate.m */; };
+		047837D21EF8C95C00C23A96 /* ZCCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837D11EF8C95C00C23A96 /* ZCCTabBarViewController.m */; };
+		047837D51EF8C99C00C23A96 /* ZCCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837D41EF8C99C00C23A96 /* ZCCNavigationViewController.m */; };
+		047837DB1EF8CD6A00C23A96 /* ZCCOrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837DA1EF8CD6A00C23A96 /* ZCCOrderTableViewController.m */; };
+		047837DE1EF8CE2600C23A96 /* ZCCMineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837DD1EF8CE2600C23A96 /* ZCCMineTableViewController.m */; };
+		047837E11EF8CE4900C23A96 /* ZCCBorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837E01EF8CE4900C23A96 /* ZCCBorrowViewController.m */; };
+		047837E51EF8CE9B00C23A96 /* ZCCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837E41EF8CE9B00C23A96 /* ZCCCommon.m */; };
+		047837EE1EF8CEFB00C23A96 /* NSString+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837E91EF8CEFB00C23A96 /* NSString+EXTENSION.m */; };
+		047837EF1EF8CEFB00C23A96 /* UIImage+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837EB1EF8CEFB00C23A96 /* UIImage+EXTENSION.m */; };
+		047837F01EF8CEFB00C23A96 /* UIView+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837ED1EF8CEFB00C23A96 /* UIView+EXTENSION.m */; };
+		047837F31EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047837F21EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.m */; };
+		0484F41E1EFA465D00D75879 /* ZCCIdentifierListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484F41D1EFA465D00D75879 /* ZCCIdentifierListView.m */; };
+		0484F4201EFA467300D75879 /* ZCCIdentifierListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0484F41F1EFA467300D75879 /* ZCCIdentifierListView.xib */; };
+		0484F4231EFA62BE00D75879 /* ZCCMineListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484F4221EFA62BE00D75879 /* ZCCMineListTableViewCell.m */; };
+		0484F4261EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484F4251EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.m */; };
+		04C2DEE51F009B6B00E9CD96 /* ZCCNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DEE41F009B6B00E9CD96 /* ZCCNewFeatureViewController.m */; };
+		04C2DEEB1F00A3BE00E9CD96 /* UIWindow+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DEEA1F00A3BE00E9CD96 /* UIWindow+EXTENSION.m */; };
+		04C2DEEE1F00B38C00E9CD96 /* ZCCClearCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DEED1F00B38C00E9CD96 /* ZCCClearCacheTool.m */; };
+		04C2DEF11F00DFD700E9CD96 /* ZCCFoundPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DEF01F00DFD700E9CD96 /* ZCCFoundPasswordViewController.m */; };
+		04C2DEF91F00E52800E9CD96 /* ZCCInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DEF81F00E52800E9CD96 /* ZCCInputView.m */; };
+		04C2DEFB1F00E54100E9CD96 /* ZCCInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C2DEFA1F00E54100E9CD96 /* ZCCInputView.xib */; };
+		04C2DEFE1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DEFD1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.m */; };
+		04C2DF011F00FD3600E9CD96 /* ZCCFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DF001F00FD3600E9CD96 /* ZCCFindPasswordViewController.m */; };
+		39D12332B79347E104D5B954 /* libPods-MagicWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6ADF9CA5B8F4DC2F4C793E /* libPods-MagicWallet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0478379E1EF8C57E00C23A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0478377C1EF8C57D00C23A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047837831EF8C57D00C23A96;
+			remoteInfo = MagicWallet;
+		};
+		047837A91EF8C57E00C23A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0478377C1EF8C57D00C23A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047837831EF8C57D00C23A96;
+			remoteInfo = MagicWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040C59C31F023B2A002963BB /* UILabel+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+EXTENSION.h"; sourceTree = "<group>"; };
+		040C59C41F023B2A002963BB /* UILabel+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EXTENSION.m"; sourceTree = "<group>"; };
+		041EF58A1F01E7D3004AECB3 /* ZCCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCLoginViewController.h; sourceTree = "<group>"; };
+		041EF58B1F01E7D3004AECB3 /* ZCCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCLoginViewController.m; sourceTree = "<group>"; };
+		041EF58D1F01F42C004AECB3 /* ZCCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCRegisterViewController.h; sourceTree = "<group>"; };
+		041EF58E1F01F42C004AECB3 /* ZCCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCRegisterViewController.m; sourceTree = "<group>"; };
+		0443A7161EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCPhoneAlbumModel.h; sourceTree = "<group>"; };
+		0443A7171EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCPhoneAlbumModel.m; sourceTree = "<group>"; };
+		0443A71D1EFD05A000E3CA97 /* ZCCSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCSettingTableViewController.h; sourceTree = "<group>"; };
+		0443A71E1EFD05A000E3CA97 /* ZCCSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCSettingTableViewController.m; sourceTree = "<group>"; };
+		0443A7241EFD199200E3CA97 /* ZCCHelpCenterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCHelpCenterTableViewController.h; sourceTree = "<group>"; };
+		0443A7251EFD199200E3CA97 /* ZCCHelpCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCHelpCenterTableViewController.m; sourceTree = "<group>"; };
+		044734551EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCIdentifierTableViewCell.h; sourceTree = "<group>"; };
+		044734561EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCIdentifierTableViewCell.m; sourceTree = "<group>"; };
+		044734581EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCPhotosPickerCollectionViewController.h; sourceTree = "<group>"; };
+		044734591EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCPhotosPickerCollectionViewController.m; sourceTree = "<group>"; };
+		0447345B1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCPhtotCollectionViewCell.h; sourceTree = "<group>"; };
+		0447345C1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCPhtotCollectionViewCell.m; sourceTree = "<group>"; };
+		047837841EF8C57D00C23A96 /* MagicWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047837881EF8C57D00C23A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047837931EF8C57D00C23A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047837961EF8C57D00C23A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047837981EF8C57D00C23A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478379D1EF8C57E00C23A96 /* MagicWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047837A11EF8C57E00C23A96 /* MagicWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicWalletTests.m; sourceTree = "<group>"; };
+		047837A31EF8C57E00C23A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047837A81EF8C57E00C23A96 /* MagicWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047837AC1EF8C57E00C23A96 /* MagicWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicWalletUITests.m; sourceTree = "<group>"; };
+		047837AE1EF8C57E00C23A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047837C11EF8C69A00C23A96 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047837C21EF8C69A00C23A96 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047837D01EF8C95C00C23A96 /* ZCCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCTabBarViewController.h; sourceTree = "<group>"; };
+		047837D11EF8C95C00C23A96 /* ZCCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCTabBarViewController.m; sourceTree = "<group>"; };
+		047837D31EF8C99C00C23A96 /* ZCCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCNavigationViewController.h; sourceTree = "<group>"; };
+		047837D41EF8C99C00C23A96 /* ZCCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCNavigationViewController.m; sourceTree = "<group>"; };
+		047837D91EF8CD6A00C23A96 /* ZCCOrderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCOrderTableViewController.h; sourceTree = "<group>"; };
+		047837DA1EF8CD6A00C23A96 /* ZCCOrderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCOrderTableViewController.m; sourceTree = "<group>"; };
+		047837DC1EF8CE2600C23A96 /* ZCCMineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCMineTableViewController.h; sourceTree = "<group>"; };
+		047837DD1EF8CE2600C23A96 /* ZCCMineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCMineTableViewController.m; sourceTree = "<group>"; };
+		047837DF1EF8CE4900C23A96 /* ZCCBorrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCBorrowViewController.h; sourceTree = "<group>"; };
+		047837E01EF8CE4900C23A96 /* ZCCBorrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCBorrowViewController.m; sourceTree = "<group>"; };
+		047837E31EF8CE9B00C23A96 /* ZCCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCCommon.h; sourceTree = "<group>"; };
+		047837E41EF8CE9B00C23A96 /* ZCCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCCommon.m; sourceTree = "<group>"; };
+		047837E61EF8CEBE00C23A96 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		047837E81EF8CEFB00C23A96 /* NSString+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EXTENSION.h"; sourceTree = "<group>"; };
+		047837E91EF8CEFB00C23A96 /* NSString+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EXTENSION.m"; sourceTree = "<group>"; };
+		047837EA1EF8CEFB00C23A96 /* UIImage+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXTENSION.h"; sourceTree = "<group>"; };
+		047837EB1EF8CEFB00C23A96 /* UIImage+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXTENSION.m"; sourceTree = "<group>"; };
+		047837EC1EF8CEFB00C23A96 /* UIView+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EXTENSION.h"; sourceTree = "<group>"; };
+		047837ED1EF8CEFB00C23A96 /* UIView+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EXTENSION.m"; sourceTree = "<group>"; };
+		047837F11EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		047837F21EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
+		0484F41C1EFA465D00D75879 /* ZCCIdentifierListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCIdentifierListView.h; sourceTree = "<group>"; };
+		0484F41D1EFA465D00D75879 /* ZCCIdentifierListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCIdentifierListView.m; sourceTree = "<group>"; };
+		0484F41F1EFA467300D75879 /* ZCCIdentifierListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCCIdentifierListView.xib; sourceTree = "<group>"; };
+		0484F4211EFA62BD00D75879 /* ZCCMineListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCMineListTableViewCell.h; sourceTree = "<group>"; };
+		0484F4221EFA62BE00D75879 /* ZCCMineListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCMineListTableViewCell.m; sourceTree = "<group>"; };
+		0484F4241EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCRealIdentiferTableViewController.h; sourceTree = "<group>"; };
+		0484F4251EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCRealIdentiferTableViewController.m; sourceTree = "<group>"; };
+		04C2DEE31F009B6B00E9CD96 /* ZCCNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCNewFeatureViewController.h; sourceTree = "<group>"; };
+		04C2DEE41F009B6B00E9CD96 /* ZCCNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCNewFeatureViewController.m; sourceTree = "<group>"; };
+		04C2DEE91F00A3BE00E9CD96 /* UIWindow+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+EXTENSION.h"; sourceTree = "<group>"; };
+		04C2DEEA1F00A3BE00E9CD96 /* UIWindow+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+EXTENSION.m"; sourceTree = "<group>"; };
+		04C2DEEC1F00B38C00E9CD96 /* ZCCClearCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCClearCacheTool.h; sourceTree = "<group>"; };
+		04C2DEED1F00B38C00E9CD96 /* ZCCClearCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCClearCacheTool.m; sourceTree = "<group>"; };
+		04C2DEEF1F00DFD700E9CD96 /* ZCCFoundPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCFoundPasswordViewController.h; sourceTree = "<group>"; };
+		04C2DEF01F00DFD700E9CD96 /* ZCCFoundPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCFoundPasswordViewController.m; sourceTree = "<group>"; };
+		04C2DEF71F00E52800E9CD96 /* ZCCInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCInputView.h; sourceTree = "<group>"; };
+		04C2DEF81F00E52800E9CD96 /* ZCCInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCInputView.m; sourceTree = "<group>"; };
+		04C2DEFA1F00E54100E9CD96 /* ZCCInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCCInputView.xib; sourceTree = "<group>"; };
+		04C2DEFC1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCRevisePasswordViewController.h; sourceTree = "<group>"; };
+		04C2DEFD1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCRevisePasswordViewController.m; sourceTree = "<group>"; };
+		04C2DEFF1F00FD3600E9CD96 /* ZCCFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCFindPasswordViewController.h; sourceTree = "<group>"; };
+		04C2DF001F00FD3600E9CD96 /* ZCCFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCFindPasswordViewController.m; sourceTree = "<group>"; };
+		0D6ADF9CA5B8F4DC2F4C793E /* libPods-MagicWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CF6003B9332F484F27A75D /* Pods-MagicWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicWallet/Pods-MagicWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		B922FFCC1FB3A84FA1A0033B /* Pods-MagicWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicWallet/Pods-MagicWallet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047837811EF8C57D00C23A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D12332B79347E104D5B954 /* libPods-MagicWallet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478379A1EF8C57E00C23A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047837A51EF8C57E00C23A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0443A7191EFD058700E3CA97 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0443A71A1EFD058800E3CA97 /* Controller */,
+				0443A71B1EFD058800E3CA97 /* Model */,
+				0443A71C1EFD058800E3CA97 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0443A71A1EFD058800E3CA97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0443A71D1EFD05A000E3CA97 /* ZCCSettingTableViewController.h */,
+				0443A71E1EFD05A000E3CA97 /* ZCCSettingTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0443A71B1EFD058800E3CA97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0443A71C1EFD058800E3CA97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0443A7201EFD09FB00E3CA97 /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				0443A7211EFD09FB00E3CA97 /* Controller */,
+				0443A7221EFD09FB00E3CA97 /* Model */,
+				0443A7231EFD09FB00E3CA97 /* View */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		0443A7211EFD09FB00E3CA97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041EF58A1F01E7D3004AECB3 /* ZCCLoginViewController.h */,
+				041EF58B1F01E7D3004AECB3 /* ZCCLoginViewController.m */,
+				041EF58D1F01F42C004AECB3 /* ZCCRegisterViewController.h */,
+				041EF58E1F01F42C004AECB3 /* ZCCRegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0443A7221EFD09FB00E3CA97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0443A7231EFD09FB00E3CA97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0478377B1EF8C57D00C23A96 = {
+			isa = PBXGroup;
+			children = (
+				047837861EF8C57D00C23A96 /* MagicWallet */,
+				047837A01EF8C57E00C23A96 /* MagicWalletTests */,
+				047837AB1EF8C57E00C23A96 /* MagicWalletUITests */,
+				047837851EF8C57D00C23A96 /* Products */,
+				C27847FF49BF64DCCB6D3C5A /* Pods */,
+				5EF88FE13A8588E7FF5E34FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		047837851EF8C57D00C23A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047837841EF8C57D00C23A96 /* MagicWallet.app */,
+				0478379D1EF8C57E00C23A96 /* MagicWalletTests.xctest */,
+				047837A81EF8C57E00C23A96 /* MagicWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047837861EF8C57D00C23A96 /* MagicWallet */ = {
+			isa = PBXGroup;
+			children = (
+				047837BA1EF8C69A00C23A96 /* Classes */,
+				047837931EF8C57D00C23A96 /* Assets.xcassets */,
+				047837951EF8C57D00C23A96 /* LaunchScreen.storyboard */,
+				047837981EF8C57D00C23A96 /* Info.plist */,
+				047837871EF8C57D00C23A96 /* Supporting Files */,
+			);
+			path = MagicWallet;
+			sourceTree = "<group>";
+		};
+		047837871EF8C57D00C23A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047837881EF8C57D00C23A96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047837A01EF8C57E00C23A96 /* MagicWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				047837A11EF8C57E00C23A96 /* MagicWalletTests.m */,
+				047837A31EF8C57E00C23A96 /* Info.plist */,
+			);
+			path = MagicWalletTests;
+			sourceTree = "<group>";
+		};
+		047837AB1EF8C57E00C23A96 /* MagicWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047837AC1EF8C57E00C23A96 /* MagicWalletUITests.m */,
+				047837AE1EF8C57E00C23A96 /* Info.plist */,
+			);
+			path = MagicWalletUITests;
+			sourceTree = "<group>";
+		};
+		047837BA1EF8C69A00C23A96 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				047837BB1EF8C69A00C23A96 /* BorrowMoney */,
+				047837CA1EF8C69A00C23A96 /* Order */,
+				047837C61EF8C69A00C23A96 /* Mine */,
+				0443A7191EFD058700E3CA97 /* Setting */,
+				04C2DEE11F009B3900E9CD96 /* newFeature */,
+				047837C01EF8C69A00C23A96 /* Main */,
+				047837CE1EF8C69A00C23A96 /* Tool */,
+				0443A7201EFD09FB00E3CA97 /* UserManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		047837BB1EF8C69A00C23A96 /* BorrowMoney */ = {
+			isa = PBXGroup;
+			children = (
+				047837BC1EF8C69A00C23A96 /* Controller */,
+				047837BD1EF8C69A00C23A96 /* Model */,
+				047837BE1EF8C69A00C23A96 /* View */,
+			);
+			path = BorrowMoney;
+			sourceTree = "<group>";
+		};
+		047837BC1EF8C69A00C23A96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047837DF1EF8CE4900C23A96 /* ZCCBorrowViewController.h */,
+				047837E01EF8CE4900C23A96 /* ZCCBorrowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047837BD1EF8C69A00C23A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047837BE1EF8C69A00C23A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047837C01EF8C69A00C23A96 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				047837C11EF8C69A00C23A96 /* AppDelegate.h */,
+				047837C21EF8C69A00C23A96 /* AppDelegate.m */,
+				047837C31EF8C69A00C23A96 /* Controller */,
+				047837C41EF8C69A00C23A96 /* Model */,
+				047837C51EF8C69A00C23A96 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		047837C31EF8C69A00C23A96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047837D01EF8C95C00C23A96 /* ZCCTabBarViewController.h */,
+				047837D11EF8C95C00C23A96 /* ZCCTabBarViewController.m */,
+				047837D31EF8C99C00C23A96 /* ZCCNavigationViewController.h */,
+				047837D41EF8C99C00C23A96 /* ZCCNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047837C41EF8C69A00C23A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047837C51EF8C69A00C23A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047837C61EF8C69A00C23A96 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				047837C71EF8C69A00C23A96 /* Controller */,
+				047837C81EF8C69A00C23A96 /* Model */,
+				047837C91EF8C69A00C23A96 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		047837C71EF8C69A00C23A96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047837DC1EF8CE2600C23A96 /* ZCCMineTableViewController.h */,
+				047837DD1EF8CE2600C23A96 /* ZCCMineTableViewController.m */,
+				0484F4241EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.h */,
+				0484F4251EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.m */,
+				044734581EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.h */,
+				044734591EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.m */,
+				04C2DEEF1F00DFD700E9CD96 /* ZCCFoundPasswordViewController.h */,
+				04C2DEF01F00DFD700E9CD96 /* ZCCFoundPasswordViewController.m */,
+				04C2DEFF1F00FD3600E9CD96 /* ZCCFindPasswordViewController.h */,
+				04C2DF001F00FD3600E9CD96 /* ZCCFindPasswordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047837C81EF8C69A00C23A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0443A7161EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.h */,
+				0443A7171EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047837C91EF8C69A00C23A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0484F41C1EFA465D00D75879 /* ZCCIdentifierListView.h */,
+				0484F41D1EFA465D00D75879 /* ZCCIdentifierListView.m */,
+				0484F41F1EFA467300D75879 /* ZCCIdentifierListView.xib */,
+				0484F4211EFA62BD00D75879 /* ZCCMineListTableViewCell.h */,
+				0484F4221EFA62BE00D75879 /* ZCCMineListTableViewCell.m */,
+				044734551EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.h */,
+				044734561EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.m */,
+				0447345B1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.h */,
+				0447345C1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.m */,
+				04C2DEF71F00E52800E9CD96 /* ZCCInputView.h */,
+				04C2DEF81F00E52800E9CD96 /* ZCCInputView.m */,
+				04C2DEFA1F00E54100E9CD96 /* ZCCInputView.xib */,
+				04C2DEFC1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.h */,
+				04C2DEFD1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047837CA1EF8C69A00C23A96 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				047837CB1EF8C69A00C23A96 /* Controller */,
+				047837CC1EF8C69A00C23A96 /* Model */,
+				047837CD1EF8C69A00C23A96 /* View */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		047837CB1EF8C69A00C23A96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047837D91EF8CD6A00C23A96 /* ZCCOrderTableViewController.h */,
+				047837DA1EF8CD6A00C23A96 /* ZCCOrderTableViewController.m */,
+				0443A7241EFD199200E3CA97 /* ZCCHelpCenterTableViewController.h */,
+				0443A7251EFD199200E3CA97 /* ZCCHelpCenterTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047837CC1EF8C69A00C23A96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047837CD1EF8C69A00C23A96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047837CE1EF8C69A00C23A96 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				047837E61EF8CEBE00C23A96 /* Singleton.h */,
+				047837E71EF8CEEF00C23A96 /* Category */,
+				047837E21EF8CE9B00C23A96 /* Common */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		047837E21EF8CE9B00C23A96 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				047837E31EF8CE9B00C23A96 /* ZCCCommon.h */,
+				047837E41EF8CE9B00C23A96 /* ZCCCommon.m */,
+				04C2DEEC1F00B38C00E9CD96 /* ZCCClearCacheTool.h */,
+				04C2DEED1F00B38C00E9CD96 /* ZCCClearCacheTool.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		047837E71EF8CEEF00C23A96 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				047837E81EF8CEFB00C23A96 /* NSString+EXTENSION.h */,
+				047837E91EF8CEFB00C23A96 /* NSString+EXTENSION.m */,
+				047837EA1EF8CEFB00C23A96 /* UIImage+EXTENSION.h */,
+				047837EB1EF8CEFB00C23A96 /* UIImage+EXTENSION.m */,
+				047837EC1EF8CEFB00C23A96 /* UIView+EXTENSION.h */,
+				047837ED1EF8CEFB00C23A96 /* UIView+EXTENSION.m */,
+				047837F11EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.h */,
+				047837F21EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.m */,
+				04C2DEE91F00A3BE00E9CD96 /* UIWindow+EXTENSION.h */,
+				04C2DEEA1F00A3BE00E9CD96 /* UIWindow+EXTENSION.m */,
+				040C59C31F023B2A002963BB /* UILabel+EXTENSION.h */,
+				040C59C41F023B2A002963BB /* UILabel+EXTENSION.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04C2DEE11F009B3900E9CD96 /* newFeature */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DEE21F009B3900E9CD96 /* Controller */,
+			);
+			path = newFeature;
+			sourceTree = "<group>";
+		};
+		04C2DEE21F009B3900E9CD96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DEE31F009B6B00E9CD96 /* ZCCNewFeatureViewController.h */,
+				04C2DEE41F009B6B00E9CD96 /* ZCCNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF88FE13A8588E7FF5E34FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D6ADF9CA5B8F4DC2F4C793E /* libPods-MagicWallet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C27847FF49BF64DCCB6D3C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36CF6003B9332F484F27A75D /* Pods-MagicWallet.debug.xcconfig */,
+				B922FFCC1FB3A84FA1A0033B /* Pods-MagicWallet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047837831EF8C57D00C23A96 /* MagicWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047837B11EF8C57E00C23A96 /* Build configuration list for PBXNativeTarget "MagicWallet" */;
+			buildPhases = (
+				CB8EAC86D313FC73F9EF5777 /* [CP] Check Pods Manifest.lock */,
+				047837801EF8C57D00C23A96 /* Sources */,
+				047837811EF8C57D00C23A96 /* Frameworks */,
+				047837821EF8C57D00C23A96 /* Resources */,
+				8A91C18E2C16BA2CC9FD37D5 /* [CP] Embed Pods Frameworks */,
+				14981486E257BFAD134996DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicWallet;
+			productName = MagicWallet;
+			productReference = 047837841EF8C57D00C23A96 /* MagicWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0478379C1EF8C57E00C23A96 /* MagicWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047837B41EF8C57E00C23A96 /* Build configuration list for PBXNativeTarget "MagicWalletTests" */;
+			buildPhases = (
+				047837991EF8C57E00C23A96 /* Sources */,
+				0478379A1EF8C57E00C23A96 /* Frameworks */,
+				0478379B1EF8C57E00C23A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0478379F1EF8C57E00C23A96 /* PBXTargetDependency */,
+			);
+			name = MagicWalletTests;
+			productName = MagicWalletTests;
+			productReference = 0478379D1EF8C57E00C23A96 /* MagicWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047837A71EF8C57E00C23A96 /* MagicWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047837B71EF8C57E00C23A96 /* Build configuration list for PBXNativeTarget "MagicWalletUITests" */;
+			buildPhases = (
+				047837A41EF8C57E00C23A96 /* Sources */,
+				047837A51EF8C57E00C23A96 /* Frameworks */,
+				047837A61EF8C57E00C23A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047837AA1EF8C57E00C23A96 /* PBXTargetDependency */,
+			);
+			name = MagicWalletUITests;
+			productName = MagicWalletUITests;
+			productReference = 047837A81EF8C57E00C23A96 /* MagicWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0478377C1EF8C57D00C23A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zcc;
+				TargetAttributes = {
+					047837831EF8C57D00C23A96 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D6BNMPBAWN;
+						ProvisioningStyle = Automatic;
+					};
+					0478379C1EF8C57E00C23A96 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047837831EF8C57D00C23A96;
+					};
+					047837A71EF8C57E00C23A96 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047837831EF8C57D00C23A96;
+					};
+				};
+			};
+			buildConfigurationList = 0478377F1EF8C57D00C23A96 /* Build configuration list for PBXProject "MagicWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0478377B1EF8C57D00C23A96;
+			productRefGroup = 047837851EF8C57D00C23A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047837831EF8C57D00C23A96 /* MagicWallet */,
+				0478379C1EF8C57E00C23A96 /* MagicWalletTests */,
+				047837A71EF8C57E00C23A96 /* MagicWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047837821EF8C57D00C23A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2DEFB1F00E54100E9CD96 /* ZCCInputView.xib in Resources */,
+				0484F4201EFA467300D75879 /* ZCCIdentifierListView.xib in Resources */,
+				047837971EF8C57D00C23A96 /* LaunchScreen.storyboard in Resources */,
+				047837941EF8C57D00C23A96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478379B1EF8C57E00C23A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047837A61EF8C57E00C23A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14981486E257BFAD134996DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicWallet/Pods-MagicWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A91C18E2C16BA2CC9FD37D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicWallet/Pods-MagicWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB8EAC86D313FC73F9EF5777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047837801EF8C57D00C23A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2DEF91F00E52800E9CD96 /* ZCCInputView.m in Sources */,
+				0484F41E1EFA465D00D75879 /* ZCCIdentifierListView.m in Sources */,
+				047837D21EF8C95C00C23A96 /* ZCCTabBarViewController.m in Sources */,
+				047837E11EF8CE4900C23A96 /* ZCCBorrowViewController.m in Sources */,
+				0443A7261EFD199200E3CA97 /* ZCCHelpCenterTableViewController.m in Sources */,
+				047837DB1EF8CD6A00C23A96 /* ZCCOrderTableViewController.m in Sources */,
+				047837F31EF8E35B00C23A96 /* UINavigationBar+BackgroundColor.m in Sources */,
+				04C2DEFE1F00E6B500E9CD96 /* ZCCRevisePasswordViewController.m in Sources */,
+				047837CF1EF8C69A00C23A96 /* AppDelegate.m in Sources */,
+				04C2DF011F00FD3600E9CD96 /* ZCCFindPasswordViewController.m in Sources */,
+				04C2DEF11F00DFD700E9CD96 /* ZCCFoundPasswordViewController.m in Sources */,
+				047837EE1EF8CEFB00C23A96 /* NSString+EXTENSION.m in Sources */,
+				04C2DEEB1F00A3BE00E9CD96 /* UIWindow+EXTENSION.m in Sources */,
+				047837DE1EF8CE2600C23A96 /* ZCCMineTableViewController.m in Sources */,
+				04C2DEE51F009B6B00E9CD96 /* ZCCNewFeatureViewController.m in Sources */,
+				047837891EF8C57D00C23A96 /* main.m in Sources */,
+				0484F4231EFA62BE00D75879 /* ZCCMineListTableViewCell.m in Sources */,
+				047837D51EF8C99C00C23A96 /* ZCCNavigationViewController.m in Sources */,
+				0484F4261EFA70FA00D75879 /* ZCCRealIdentiferTableViewController.m in Sources */,
+				040C59C51F023B2A002963BB /* UILabel+EXTENSION.m in Sources */,
+				0443A7181EFCB9F700E3CA97 /* ZCCPhoneAlbumModel.m in Sources */,
+				047837E51EF8CE9B00C23A96 /* ZCCCommon.m in Sources */,
+				0447345D1EFBA288009C4AA2 /* ZCCPhtotCollectionViewCell.m in Sources */,
+				044734571EFB56B1009C4AA2 /* ZCCIdentifierTableViewCell.m in Sources */,
+				0447345A1EFB909A009C4AA2 /* ZCCPhotosPickerCollectionViewController.m in Sources */,
+				041EF58F1F01F42C004AECB3 /* ZCCRegisterViewController.m in Sources */,
+				047837F01EF8CEFB00C23A96 /* UIView+EXTENSION.m in Sources */,
+				047837EF1EF8CEFB00C23A96 /* UIImage+EXTENSION.m in Sources */,
+				0443A71F1EFD05A000E3CA97 /* ZCCSettingTableViewController.m in Sources */,
+				041EF58C1F01E7D3004AECB3 /* ZCCLoginViewController.m in Sources */,
+				04C2DEEE1F00B38C00E9CD96 /* ZCCClearCacheTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047837991EF8C57E00C23A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047837A21EF8C57E00C23A96 /* MagicWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047837A41EF8C57E00C23A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047837AD1EF8C57E00C23A96 /* MagicWalletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0478379F1EF8C57E00C23A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047837831EF8C57D00C23A96 /* MagicWallet */;
+			targetProxy = 0478379E1EF8C57E00C23A96 /* PBXContainerItemProxy */;
+		};
+		047837AA1EF8C57E00C23A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047837831EF8C57D00C23A96 /* MagicWallet */;
+			targetProxy = 047837A91EF8C57E00C23A96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047837951EF8C57D00C23A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047837961EF8C57D00C23A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047837AF1EF8C57E00C23A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047837B01EF8C57E00C23A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047837B21EF8C57E00C23A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CF6003B9332F484F27A75D /* Pods-MagicWallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D6BNMPBAWN;
+				INFOPLIST_FILE = MagicWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcc.MagicWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		047837B31EF8C57E00C23A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B922FFCC1FB3A84FA1A0033B /* Pods-MagicWallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D6BNMPBAWN;
+				INFOPLIST_FILE = MagicWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcc.MagicWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		047837B51EF8C57E00C23A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcc.MagicWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWallet.app/MagicWallet";
+			};
+			name = Debug;
+		};
+		047837B61EF8C57E00C23A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcc.MagicWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWallet.app/MagicWallet";
+			};
+			name = Release;
+		};
+		047837B81EF8C57E00C23A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcc.MagicWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicWallet;
+			};
+			name = Debug;
+		};
+		047837B91EF8C57E00C23A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcc.MagicWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0478377F1EF8C57D00C23A96 /* Build configuration list for PBXProject "MagicWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047837AF1EF8C57E00C23A96 /* Debug */,
+				047837B01EF8C57E00C23A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047837B11EF8C57E00C23A96 /* Build configuration list for PBXNativeTarget "MagicWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047837B21EF8C57E00C23A96 /* Debug */,
+				047837B31EF8C57E00C23A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047837B41EF8C57E00C23A96 /* Build configuration list for PBXNativeTarget "MagicWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047837B51EF8C57E00C23A96 /* Debug */,
+				047837B61EF8C57E00C23A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047837B71EF8C57E00C23A96 /* Build configuration list for PBXNativeTarget "MagicWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047837B81EF8C57E00C23A96 /* Debug */,
+				047837B91EF8C57E00C23A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0478377C1EF8C57D00C23A96 /* Project object */;
+}
